@@ -14,12 +14,12 @@ public class majorityunit {
             arr[i] = scanner.nextInt();
         }
 
-        // Count frequency of each number
+
         for (int num : arr) {
             repeat.put(num, repeat.getOrDefault(num, 0) + 1);
         }
 
-        // Collect numbers with frequency = 1
+
         List<Integer> keys = new ArrayList<>();
         int searchValue = arr.length/2;
         for (Map.Entry<Integer, Integer> entry : repeat.entrySet()) {
@@ -28,7 +28,7 @@ public class majorityunit {
             }
         }
 
-        // Print results
+
         if (!keys.isEmpty()) {
             System.out.println("The majority unit(s) whose occurrence is more than " + searchValue + " are: " + keys);
         } else {

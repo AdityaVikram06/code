@@ -14,11 +14,11 @@ public class panagrame {
             return false;
         }
 
-        // Convert strings to character arrays
+
         char[] charArray1 = str1.toCharArray();
         char[] charArray2 = str2.toCharArray();
 
-        // Sort the character arrays
+
         Arrays.sort(charArray1);
         Arrays.sort(charArray2);
 

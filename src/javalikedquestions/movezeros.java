@@ -23,7 +23,7 @@ public class movezeros {
             }
         }
 
-        // Fill rest with zeros
+
         while (insertPos < n) {
             arr[insertPos++] = 0;
         }
